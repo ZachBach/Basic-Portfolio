@@ -1,0 +1,53 @@
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #017042;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+
+img {
+	width: 450px;
+	height: 375px;
+	margin: 20px;
+  transition: all 1s;
+}
+
+.container {
+  align-content: center;
+  background-color: black;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.footer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background: #017042;
+  text-decoration-color: black;
+}
